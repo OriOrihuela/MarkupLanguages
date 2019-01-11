@@ -1,1 +1,0 @@
-I know maybe it is inefficient to make four different stylesheets, but I wanted to make the code of them one by one just to improve my CSS skills.
