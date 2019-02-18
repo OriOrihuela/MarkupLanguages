@@ -324,12 +324,15 @@ nav ul li.active a {
     header nav {
         margin-top: 20px;
     }
+    h3 {
+        font-size: 1.875em;
+    }
     header nav ul li {
         font-size: 0.875em;
     }
     .banner-caption {
         bottom: 0;
-        width: 100%;
+        width: 100.45%;
     }
 }
 

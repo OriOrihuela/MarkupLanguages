@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Examen Star Wars</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style_examen.css"/>
+        <link rel="icon" href="images/darth.png"/>
+        <script src="main.js"></script>
+        <style>
+            #logo {
+                margin: auto;
+                display: block;
+                max-width: 100%;
+            }
+            #section1 {
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="images/logo.png" alt="logo" id="logo">
+        <form action="final.html" method="POST">
+            <section id="section1">
+                <h2>Pregunta número 1</h2>
+                <fieldset>
+                    <legend>Hasta la fecha, ¿qué número de películas sobre la saga principal de Star Wars hay realizadas?</legend>
+                    <ul id="question1">
+                        <li><label><input type="radio" name="films" value="6">6</label></li>
+                        <li><label><input type="radio" name="films" value="8">8</label></li>
+                        <li><label><input type="radio" name="films" value="9">9</label></li>
+                        <li><label><input type="radio" name="films" value="7">7</label></li>
+                    </ul>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 2</h2>
+                <fieldset>
+                    <legend>¿Cuáles son los nombres de los hijos de Anakin Skywalker?</legend>
+                    <ul id="question2">
+                        <li><label><input type="checkbox" name="sons" value="Luke">Luke</label></li>
+                        <li><label><input type="checkbox" name="sons" value="Leia">Leia</label></li>
+                        <li><label><input type="checkbox" name="sons" value="Lara">Lara</label></li>
+                        <li><label><input type="checkbox" name="sons" value="Luk">Luk</label></li>
+                    </ul>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 3</h2>
+                <fieldset>
+                    <legend>Según las películas, ¿de qué color es la espada de Mace Windu?</legend>
+                    <select name="SwordColor">
+                        <option id="red">Red</option>
+                        <option id="purple">Purple</option>
+                        <option id="gray">Gray</option>
+                        <option id="blue">Blue</option>
+                        <option id="green">Green</option>
+                    </select>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 4</h2>
+                <fieldset>
+                    <legend>Luke Skywalker, en algún momento de la 5ª película, pelea contra Darth Vader en un duelo de sables. <br>
+                        Después de que el Lord Sith le cortara a Luke la mano, ¿qué famosa frase prolifera Darth Vader sobre Luke?
+                    </legend>
+                    <select name="ChoosePhrase" multiple id="multiple1">
+                        <option>"No, yo soy tu padre"</option>
+                        <option>"Cagon dios muérete, pexao"</option>
+                        <option>"Yo soy tu padre"</option>
+                        <option>"Ojo no te caigas"</option>
+                        <option>"Yo soy el Lado Oscuro"</option>
+                        <option>"Luke, yo soy tu padre"</option>
+                    </select>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 5</h2>
+                <fieldset>
+                    <legend>De los siguientes personajes de Star Wars, ¿quién no es sensible a la Fuerza?</legend>
+                    <select name="ChooseCharacter">
+                        <optgroup label="Humanos">
+                                <option>Anakin Skywalker</option>
+                                <option>Obi-Wan</option>
+                        </optgroup>
+                        <optgroup label="Wookies">
+                            <option>Chewbacca</option>
+                        </optgroup>
+                        <optgroup label="Robots">
+                            <option>RD-D2</option>
+                        </optgroup>
+                        <optgroup label="Cereanos">
+                            <option>Ki-Adi-Mundi</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 6</h2>
+                <fieldset>
+                    <legend>Según las enseñanzas Sith y sus tradiciones, existe una regla llamada "La Regla de..."</legend>
+                    <label id="RuleOf">Regla de: <input type="number" name="rule" id="rule_of" min="1" max="6"></label>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 7</h2>
+                <fieldset>
+                    <legend>¿Cuántos cuernos tienes Darth Maul en la cabeza?</legend>
+                    <label id="Horns">8<input type="range" name="horns" id="horns" min="0" max="10" step="5" value="5">12</label>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 8</h2>
+                <fieldset>
+                    <legend>¿De qué color es la piel del maestro Yoda?</legend>
+                    <label id="Skin">El color de la piel del maestro Yoda es: <input type="color" name="yoda" id="yoda_skin"></label>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 9</h2>
+                <fieldset>
+                    <legend>Según la historia del universo Star Wars, ¿quién fue el primer Jedi Oscuro?</legend>
+                    <label id="DarkJedi">El primer Jedi Oscuro según el universo Star Wars fue: <input type="text" name="darkJedi" id="dark"></label>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 10</h2>
+                <fieldset>
+                    <legend>En "El Imperio Contraataca", instantes previos a su congelación, Leia expresa sus sentimientos a 
+                        Han solo. Éste último le responde, pero, ¿cuál es su respuesta?
+                    </legend>
+                    <ul>
+                        <li><label><input type="radio" name="answer">"Lo sé"</label></li>
+                        <li><label><input type="radio" name="answer">"Yo también"</label></li>
+                        <li><label><input type="radio" name="answer">"Te quiero"</label></li>
+                        <li><label><input type="radio" name="answer">"Yo también te quiero"</label></li>
+                    </ul>
+                </fieldset>
+            </section>
+            <p><input type="submit" value="Finalizar examen"> <input type="reset" value="Reiniciar examen"></p>
+        </form>
+    </body>
+</html>

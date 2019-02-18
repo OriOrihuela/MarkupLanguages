@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Datos Examinado</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style_entry.css"/>
+    <link rel="icon" href="images/darth.png"/>
+    <script src="main.js"></script>
+    <style>
+        img {
+            float: right;
+            margin-right: 42%;
+        }
+    </style>
+</head>
+<body>
+    <img src="images/logo.png" alt="logo">
+    <form action="inicio_examen.html" method="post" id="form">
+        <h2>Introduzca sus datos personales</h2>
+        <fieldset id="fieldset">
+            <ul>
+                <li><input type="text" name="name" value="Nombre"></li>
+                <li><input type="text" name="address" value="Dirección"></li>
+                <li><input type="text" name="mail" value="Email"></li>
+                <li><input type="text" name="phone" value="Teléfono"></li>
+                <li id="last_one"><textarea name="story" rows="4" cols="60" 
+                    maxlength="300" placeholder="¿Algo que decir antes de comenzar?"></textarea></li>
+            </ul>
+            <p><input type="submit" name="send-button" value="ENVIAR"></p>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,194 @@
+/** Global**/
+@font-face {
+	font-family: 'poller_oneregular';
+	src: url('../fonts/pollerone/pollerone-webfont.eot');
+	src: url('../fonts/pollerone/pollerone-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/pollerone/pollerone-webfont.woff') format('woff'),
+		 url('../fonts/pollerone/pollerone-webfont.ttf') format('truetype'),
+		 url('../fonts/pollerone/pollerone-webfont.svg#poller_oneregular') format('svg');
+}
+@font-face {
+	font-family: 'leckerli_oneregular';
+	src: url('../fonts/leckerlione/leckerlione-regular-webfont.eot');
+	src: url('../fonts/leckerlione/leckerlione-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/leckerlione/leckerlione-regular-webfont.woff') format('woff'),
+		 url('../fonts/leckerlione/leckerlione-regular-webfont.ttf') format('truetype'),
+		 url('../fonts/leckerlione/leckerlione-regular-webfont.svg#leckerli_oneregular') format('svg');
+}
+/* HEADER */
+header {
+	margin: auto;
+	padding: 4.5833333% 0 5.2083333%;
+	text-align: center;
+	width: 100%;
+}
+header a.logo {
+    display: block;
+    margin: auto;
+}
+header ul {
+    margin:auto;
+    padding: 20px 0;
+}
+header ul li {
+    display: inline;
+    list-style: none;
+}
+header ul li a {
+    color: black;
+    list-style: none;
+    padding: 0 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header ul li a:hover, header ul li.selected a {
+    color: rgb(35, 124, 165);
+}
+
+/* BODY */
+body {
+    background: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+#body {
+    text-align: center;
+}
+#body #featured img {
+    width: 100%;
+}
+#body #featured div {
+    float: right;
+    position: absolute;
+    padding: 0 0 0 300px;
+    top: 50%;
+    left: 25%;
+}
+#body #featured div h2 {
+    background: white;
+    margin: 20px 0;
+    padding: 20px 20px 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+    display: inline-block;
+}
+#body #featured div span {
+    background: black;
+    color: white;
+    display: grid;
+    padding: 8px 8px;
+    margin: 10px 0;
+    text-align: center;
+}
+#body #featured div a{
+    color: white;
+    background-color: rgb(11, 102, 109);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    margin: 10px 0;
+    display: inline-block;
+    width: 500px;
+    opacity: .8;
+}
+#body #featured div a:hover {
+    opacity: 1;
+    color: aqua;
+}
+
+/* IMAGES */
+
+#body ul {
+    margin: auto;
+    padding: 50px 0;
+    overflow: hidden;
+}
+#body ul li {
+    display: inline;
+    margin: 0 20px;
+}
+#body ul li a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+}
+#body ul li a img{
+    border: 5px solid black;
+    opacity: .8;
+}
+#body ul li a:hover img{
+    opacity: 1;
+}
+#body ul li span {
+    margin: 245px 100px 0 -230px;
+    padding: 20px 0 0 0;
+    font-family: poller_oneregular;
+    position: absolute;
+    
+}
+
+/* FOOTER */ 
+
+footer {
+	background: #252525;
+    margin: 0;
+    padding: 20px 0 20px;
+}
+footer div {
+	margin: auto;
+	padding: 0;
+    width: 960px;
+}
+footer div p {
+    color: #fff;
+	float: left;
+    line-height: 44px;
+}
+footer div ul {
+    display: inline-block;
+    overflow: hidden;
+}
+footer div ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+}
+footer div ul li a{
+    display: block;
+	height: 50px;
+	width: 50px;
+	margin: 0;
+	padding: 0;
+	text-indent: -666em;
+    overflow: hidden;
+}
+#twitter {
+	background: url(../images/icons/icon-twitter.jpg) no-repeat 0 0;
+}
+#twitter:hover {
+	background: url(../images/icons/icon-twitter-hover.jpg) no-repeat 0 0;
+}
+#facebook {
+	background: url(../images/icons/icon-facebook.jpg) no-repeat 0 0;
+}
+#facebook:hover {
+	background: url(../images/icons/icon-facebook-hover.jpg) no-repeat 0 0;
+}
+#googleplus {
+	background: url(../images/icons/icon-googleplus.jpg) no-repeat 0 0;
+}
+#googleplus:hover {
+	background: url(../images/icons/icon-googleplus-hover.jpg) no-repeat 0 0;
+}
+#pinterest {
+	background: url(../images/icons/icon-pinterest.jpg) no-repeat 0 0;
+}
+#pinterest:hover {
+	background: url(../images/icons/icon-pinterest-hover.jpg) no-repeat 0 0;
+}
