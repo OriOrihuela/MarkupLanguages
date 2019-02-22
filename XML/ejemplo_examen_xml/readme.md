@@ -1,2 +1,2 @@
 # XML
-### Repository created to show my XML work.
+### Folder created to show my XML work.
