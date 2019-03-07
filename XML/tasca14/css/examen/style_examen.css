@@ -1,0 +1,83 @@
+body {
+    background-image: url(https://1.bp.blogspot.com/-T85naTcMAYA/VzNJ12hg2iI/AAAAAAAAAIk/Q9r0MLjbqX4IUFb1gRAl8DyhkVM-VIT6gCLcB/s1600/1miEZBL.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    padding: 0;
+    margin:0;
+    color: yellow;
+}
+
+/* Apply to all sections */
+body section {
+    text-align: center;
+    margin-top: 5%;
+}
+body section h2 {
+    text-decoration: underline;
+}
+body section fieldset {
+    display: inline;
+    border-color: yellow;
+    border-radius: 25%;
+}
+body section fieldset legend {
+    text-transform: uppercase;
+}
+label:hover {
+    background-color: yellow;
+    border-radius: 20%;
+    color: black;
+}
+p {
+    text-align: center;
+    margin: 3% 0;
+}
+p input {
+    border-radius: 20px;
+    background-color: yellow;
+    font-weight: bold;
+    padding: 10px;
+    border-color: black;
+}
+p input:hover {
+    background-color: black;
+    color: yellow;
+    border-color: yellow;
+}
+option {
+    font-weight: bold;
+}
+
+body ul {
+    list-style: none;
+}
+select {
+    background-color: yellow;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+/* Question three */
+#text_01 {
+    background-color: yellow;
+    border-color: black;
+    border-radius: 25%;
+}
+
+/* Question 4 */
+#text_02 {
+    background-color: yellow;
+    border-color: black;
+    border-radius: 25%;
+}
+/* Question 9 */
+#question9 {
+    border-radius: 0;
+}
+
+/* Question 10 */
+#question10 {
+    border-radius: 0;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Examen Star Wars</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/examen/style_examen.css"/>
+        <link rel="icon" href="images/darth.png"/>
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+        <form action="final.html" method="POST">
+            <section>
+                <h2>Pregunta número 1</h2>
+                <fieldset>
+                    <legend>Hasta la fecha, ¿qué número de películas sobre la saga principal de Star Wars hay realizadas?</legend>
+                    <ul id="question1">
+                        <li><label><input type="radio" name="films" value="6" id="radio_01">6</label></li>
+                        <li><label><input type="radio" name="films" value="8" id="radio_02">8</label></li>
+                        <li><label><input type="radio" name="films" value="9" id="radio_03">9</label></li>
+                        <li><label><input type="radio" name="films" value="7" id="radio_04">7</label></li>
+                    </ul>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 2</h2>
+                <fieldset>
+                    <legend>¿Cuántos hijos tiene Anakin Skywalker?</legend>
+                    <ul id="question2">
+                        <li><label><input type="radio" name="numberSons" value="1" id="radio_05">1</label></li>
+                        <li><label><input type="radio" name="numberSons" value="3" id="radio_06">3</label></li>
+                        <li><label><input type="radio" name="numberSons" value="2" id="radio_07">2</label></li>
+                        <li><label><input type="radio" name="numberSons" value="5" id="radio_08">5</label></li>
+                    </ul>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 3</h2>
+                <fieldset>
+                    <legend>Según la historia del universo Star Wars, ¿quién fue el primer Jedi Oscuro?</legend>
+                    <label id="question3">El primer Jedi Oscuro según el universo Star Wars fue: <input type="text" name="darkJedi" id="text_01"></label>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 4</h2>
+                <fieldset>
+                    <legend>¿Cuál es el nombre del planeta que no aparece en los archivos del Templo Jedi?</legend>
+                    <label id="question4">El nombre del planeta es: <input type="text" name="planet" id="text_02"></label>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 5</h2>
+                <fieldset>
+                    <legend>De los nombres a continuación, ¿cuáles son de los hijos de Anakin Skywalker</legend>
+                    <ul id="question5">
+                        <li><label><input type="checkbox" name="nameSons" value="Luke" id="checkbox_01">Luke</label></li>
+                        <li><label><input type="checkbox" name="nameSons" value="Leia" id="checkbox_02">Leia</label></li>
+                        <li><label><input type="checkbox" name="nameSons" value="Logan" id="checkbox_03">Logan</label></li>
+                        <li><label><input type="checkbox" name="nameSons" value="Anastasia" id="checkbox_04">Anastasia</label></li>
+                    </ul>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 6</h2>
+                <fieldset>
+                    <legend>¿De qué colores son los sables láser que lleva Anakin mientras lucha contra el Conde Dooku en el Ataque de los Clones?</legend>
+                    <ul id="question6">
+                        <li><label><input type="checkbox" name="sabers" value="Verde" id="checkbox_05">Verde</label></li>
+                        <li><label><input type="checkbox" name="sabers" value="Amarillo" id="checkbox_06">Amarillo</label></li>
+                        <li><label><input type="checkbox" name="sabers" value="Blanco" id="checkbox_07">Blanco</label></li>
+                        <li><label><input type="checkbox" name="sabers" value="Azul" id="checkbox_08">Azul</label></li>
+                    </ul>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 7</h2>
+                <fieldset>
+                    <legend>¿Cuál es el nombre del maestro que siempre acompaña a Obi-Wan Kenobi en la Amenaza Fantasma?</legend>
+                    <select name="master" id="question7">
+                        <option value="yoda">Yoda</option>
+                        <option value="jinn">Qui-Gon Jinn</option>
+                        <option value="windu">Mace Windu</option>
+                        <option value="plokon">Plokon</option>
+                    </select>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 8</h2>
+                <fieldset>
+                    <legend>¿De qué color es la piel del maestro Yoda?</legend>
+                    <select name="skin" id="question8">
+                        <option value="brown">Marrón</option>
+                        <option value="green">Verde</option>
+                        <option value="blue">Azul</option>
+                        <option value="purple">Púrpura</option>
+                    </select>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 9</h2>
+                <fieldset>
+                    <legend>¿Cuáles son los nombres de los dos Sith que gobiernan el Imperio Galáctico?</legend>
+                    <select name="sith" id="question9" multiple>
+                        <option value="vader">Darth Vader</option>
+                        <option value="malak">Darth Malak</option>
+                        <option value="maul">Darth Maul</option>
+                        <option value="sidious">Darth Sidious</option>
+                    </select>
+                </fieldset>
+            </section>
+            <section>
+                <h2>Pregunta número 10</h2>
+                <fieldset>
+                    <legend>¿Qué frases son más que pronunciadas a lo largo de las diferentes películas de Star Wars?</legend>
+                    <select name="sith" id="question10" multiple>
+                            <option value="force">Y que la fuerza te acompañe</option>
+                            <option value="force2">Siento una perturbación en la Fuerza</option>
+                            <option value="darkSide">El lado oscuro es poderoso en ti</option>
+                            <option value="meh">Ahí vas y lo cascas</option>
+                        </select>
+                </fieldset>
+            </section>
+            <p><input type="submit" value="Finalizar examen"> <input type="reset" value="Reiniciar examen"></p>
+        </form>
+    </body>
+</html>
