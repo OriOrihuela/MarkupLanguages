@@ -23,6 +23,10 @@ body {
     border-radius: 50px;
     border: solid 2px black;
     font-weight: bold;
+    opacity: 0.8;
+}
+#start:hover {
+    opacity: 1;
 }
 /* -- Timer -- */
 #timer {
