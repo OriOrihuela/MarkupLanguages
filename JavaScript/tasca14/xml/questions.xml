@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE questions>
+<questions>
+    <question id="pregunta1">
+        <type>radio</type>
+        <title>Hasta la fecha, ¿qué número de películas sobre la saga principal de Star Wars hay realizadas?</title>
+        <option>6</option>
+        <option>8</option>
+        <option>9</option>
+        <option>7</option>
+        <answer>1</answer>
+    </question>
+
+    <question id="pregunta2">
+        <type>radio</type>
+        <title>¿Cuántos hijos tiene Anakin Skywalker?</title>
+        <option>1</option>
+        <option>3</option>
+        <option>2</option>
+        <option>5</option>
+        <answer>2</answer>
+    </question>
+
+    <question id="pregunta3">
+        <type>text</type>
+        <title>Según la historia del universo Star Wars, ¿quién fue el primer Jedi Oscuro?</title>
+        <answer>Xendor</answer>
+    </question>
+
+    <question id="pregunta4">
+        <type>text</type>
+        <title>¿Cuál es el nombre del planeta que no aparece en los archivos del Templo Jedi?</title>
+        <answer>Camino</answer>
+    </question>
+
+    <question id="pregunta5">
+        <type>checkbox</type>
+        <title>De los nombres a continuación, ¿cuáles son de los hijos de Anakin Skywalker</title>
+        <option>Luke</option>
+        <option>Leia</option>
+        <option>Logan</option>
+        <option>Anastasia</option>
+        <answer>0</answer>
+        <answer>1</answer>
+    </question>
+
+    <question id="pregunta6">
+        <type>checkbox</type>
+        <title>¿De qué colores son los sables láser que lleva Anakin mientras lucha contra el Conde Dooku en el Ataque de los Clones?</title>
+        <option>Verde</option>
+        <option>Amarillo</option>
+        <option>Blanco</option>
+        <option>Azul</option>
+        <answer>0</answer>
+        <answer>3</answer>
+    </question>
+
+    <question id="pregunta7">
+        <type>select</type>
+        <title>¿Cuál es el nombre del maestro que siempre acompaña a Obi-Wan Kenobi en la Amenaza Fantasma?</title>
+        <option>Yoda</option>
+        <option>Qui-Gon Jinn</option>
+        <option>Mace Windu</option>
+        <option>Plokon</option>
+        <answer>1</answer>
+    </question>
+
+    <question id="pregunta8">
+        <type>select</type>
+        <title>¿De qué color es la piel del maestro Yoda?</title>
+        <option >Marrón</option>
+        <option>Verde</option>
+        <option>Azul</option>
+        <option>Púrpura</option>
+        <answer>1</answer>
+    </question>
+
+    <question id="pregunta9">
+        <type>multiple</type>
+        <title>¿Cuáles son los nombres de los dos Sith que gobiernan el Imperio Galáctico?</title>
+        <option>Darth Vader</option>
+        <option>Darth Malak</option>
+        <option>Darth Maul</option>
+        <option>Darth Sidious</option>
+        <answer>0</answer>
+        <answer>3</answer>
+    </question>
+
+    <question id="pregunta10">
+        <type>multiple</type>
+        <title>¿Qué frases son más que pronunciadas a lo largo de las diferentes películas de Star Wars?</title>
+        <option>Y que la fuerza te acompañe</option>
+        <option>Siento una perturbación en la Fuerza</option>
+        <option>El lado oscuro es poderoso en ti</option>
+        <option>Ahí vas y lo cascas</option>
+        <answer>0</answer>
+        <answer>1</answer>
+        <answer>2</answer>
+    </question>
+</questions>

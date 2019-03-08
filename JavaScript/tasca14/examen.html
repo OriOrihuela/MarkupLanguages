@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Examen Star Wars</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/examen/style_examen.css"/>
+        <link rel="icon" href="images/darth.png"/>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <div id="start">¡Let's Go!</div>
+        <p id="timer">
+            Tiempo Restante: 
+            <span id="temp">180</span>
+             segundos
+        </p>
+        <form method="POST">
+            <!-- Radio Questions -->
+            <section>
+                <h2 id="q1">Pregunta número 1</h2>
+                <fieldset>
+                    <div id="question1"></div>
+                </fieldset>
+            </section>
+            <section>
+                <h2 id="q2">Pregunta número 2</h2>
+                <fieldset>
+                    <div id="question2"></div>
+                </fieldset>
+            </section>
+            <!-- Text Questions -->
+            <section>
+                <h2 id="q3">Pregunta número 3</h2>
+                <fieldset>
+                    <label id="label3">El primer Jedi Oscuro según el universo Star Wars fue: <input type="text" name="darkJedi" id="text_01"></label>
+                </fieldset>
+            </section>
+            <section>
+                <h2 id="q4">Pregunta número 4</h2>
+                <fieldset>
+                    <label id="label4">El nombre del planeta es: <input type="text" name="planet" id="text_02"></label>
+                </fieldset>
+            </section>
+            <!--Checkbox Questions -->
+            <section>
+                <h2 id="q5">Pregunta número 5</h2>
+                <fieldset>
+                    <div id="question5"></div>
+                </fieldset>
+            </section>
+            <section>
+                <h2 id="q6">Pregunta número 6</h2>
+                <fieldset>
+                    <div id="question6"></div>
+                </fieldset>
+            </section>
+            <!-- Select Questions -->
+            <section>
+                <h2 id="q7">Pregunta número 7</h2>
+                <fieldset>
+                    <select name="master" id="question7"></select>
+                </fieldset>
+            </section>
+            <section>
+                <h2 id="q8">Pregunta número 8</h2>
+                <fieldset>
+                    <select name="skin" id="question8"></select>
+                </fieldset>
+            </section>
+            <!-- Multiple Select Questions -->
+            <section>
+                <h2 id="q9">Pregunta número 9</h2>
+                <fieldset id="fieldset9">
+                    <select name="sith" id="question9" multiple></select>
+                </fieldset>
+            </section>
+            <section>
+                <h2 id="q10">Pregunta número 10</h2>
+                <fieldset id="fieldset10">
+                    <select name="sith" id="question10" multiple></select>
+                </fieldset>
+            </section>
+            <p><input id="butCorregir" type="submit" value="Finalizar examen"> <input id="butRegresar" type="reset" value="Reiniciar examen"></p>
+        </form>
+        <div id="resultados"></div>
+    </body>
+</html>
