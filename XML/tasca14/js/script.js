@@ -351,8 +351,6 @@ function corregirRadio(divID, answer, numPregunta) {
 
 function corregirText(IDtext, answer, numPregunta) {
     var s = document.getElementById(IDtext).value;
-    //Pasamos todo a minisculas para evitar conflictos
-    s = s.toLowerCase();
 
     if (s == answer) {
         addCorreccionHtml(numPregunta + " --> ¡CORRECTA!", "h5");
