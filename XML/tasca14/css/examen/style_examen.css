@@ -8,6 +8,39 @@ body {
     color: yellow;
 }
 
+/* Start Button */
+#start {
+    background-color: yellow;
+    color: black;
+    width: 30%;
+    display: block;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 50px;
+    border: solid 2px black;
+    font-weight: bold;
+}
+/* -- Timer -- */
+#timer {
+    position: fixed;
+    opacity: 0.95;
+    background: #54AE06;
+    font-weight: bold;
+    text-align: center;
+    width: 30%;
+    line-height: 200%;
+    font-size: 1.5vw;
+    left: 35%;
+    border: solid 2px;
+    border-radius: 5px;
+    top: 0;
+    display: none;
+    color: black;
+}
 /* Apply to all sections */
 body section {
     text-align: center;
@@ -58,12 +91,15 @@ select {
     font-weight: bold;
 }
 
-
 /* Question three */
 #text_01 {
     background-color: yellow;
     border-color: black;
     border-radius: 25%;
+}
+#label3:hover {
+    background-color: transparent;
+    color: yellow;
 }
 
 /* Question 4 */
@@ -72,12 +108,36 @@ select {
     border-color: black;
     border-radius: 25%;
 }
+#label4:hover {
+    background-color: transparent;
+    color: yellow;
+}
+
 /* Question 9 */
 #question9 {
     border-radius: 0;
+}
+#fieldset9 {
+    border-radius: 10%;
 }
 
 /* Question 10 */
 #question10 {
     border-radius: 0;
+}
+#fieldset10 {
+    border-radius: 10%;
+}
+
+/* Results */
+#resultados {
+    font-weight: bold;
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 2%;
+    display: none;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 3%;
+    box-shadow: 0.6vw 0.6vw 0.2vw #0F2202;
 }
