@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" standalone="no"?>
+<!DOCTYPE practice SYSTEM "practice.dtd">
+<matricula>
+    <cicle>Aministració de Sistemes informàtics i xarxes</cicle>
+    <alumnes>
+        <alumne>
+            <nom>Federicu Pi</nom>
+            <any>2010</any>
+            <mòduls>
+                <mòdul>XML</mòdul>
+                <mòdul>Xarxes Locals</mòdul>
+            </mòduls>
+        </alumne>
+    </alumnes>
+</matricula>
