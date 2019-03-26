@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tasca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:Schemalocation="tasca16.xsd">
+<tasca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="tasca16.xsd">
     <temps>
         <poblacio>
             <nom>Figueres</nom>
