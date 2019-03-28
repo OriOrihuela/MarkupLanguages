@@ -11,10 +11,27 @@
         <url href="http//"></url>
         <relacio></relacio>
     </persona>
+
     <persona id="x213" contr="true">
         <dades>
             <nom>Antoni</nom>
             <cognom>March Martí</cognom>
+        </dades>
+    </persona>
+
+    <persona id="x799" contr="false" salary="950€">
+        <dades>
+            <nom>Jose Antonio</nom>
+            <cognom>Zamora Rodríguez</cognom>
+        </dades>
+        <email>jzamora@gmail.com</email>
+        <relacio></relacio>
+    </persona>
+
+    <persona id="x564" note="Such a worker person" contr="true" salary="500€">
+        <dades>
+            <nom>Leopoldo</nom>
+            <cognom>Deutsche</cognom>
         </dades>
     </persona>
 </personal>
