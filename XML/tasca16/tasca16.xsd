@@ -13,15 +13,15 @@
                     <xs:element name="data" maxOccurs="unbounded" minOccurs="0">
                       <xs:complexType>
                         <xs:sequence>
-                          <xs:element type="xs:byte" name="maxima"/>
-                          <xs:element type="xs:byte" name="minima"/>
+                          <xs:element type="xs:integer" name="maxima"/>
+                          <xs:element type="xs:integer" name="minima"/>
                           <xs:element type="xs:string" name="vent"/>
                           <xs:element type="xs:string" name="pluja" minOccurs="0"/>
                           <xs:element name="previsio" maxOccurs="unbounded" minOccurs="0">
                             <xs:complexType>
                               <xs:sequence>
                                 <xs:element type="xs:string" name="estat"/>
-                                <xs:element type="xs:byte" name="graus"/>
+                                <xs:element type="xs:integer" name="graus"/>
                               </xs:sequence>
                               <xs:attribute type="xs:string" name="hora" use="optional"/>
                             </xs:complexType>
