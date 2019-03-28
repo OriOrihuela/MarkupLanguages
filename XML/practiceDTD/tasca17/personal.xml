@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personal SYSTEM "personal.dtd">
+
+<personal>
+    <persona id="x001" note="Nope" contr="false" salary="1000€">
+        <dades>
+            <nom>Eduardo</nom>
+            <cognom>Orihuela Verdugo</cognom>
+        </dades>
+        <email>eduardo.orihuela.4e@gmail.com</email>
+        <url href="http//"></url>
+        <relacio></relacio>
+    </persona>
+    <persona id="x213" contr="true">
+        <dades>
+            <nom>Antoni</nom>
+            <cognom>March Martí</cognom>
+        </dades>
+    </persona>
+</personal>
