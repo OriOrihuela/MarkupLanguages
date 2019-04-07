@@ -1,5 +1,5 @@
 # Tasca 20
-## Given the following XML document, write the XSLT style sheets that return the response desired (look at sections):
+## Given the following XML document, write the XSLT style sheets that return the desired answer (look at sections):
 
 ### Exercise 1:
 
