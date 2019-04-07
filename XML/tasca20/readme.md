@@ -1,13 +1,14 @@
-# Given the following XML document, write the XSLT style sheets that return the response desired (look at sections):
+# Tasca 20
+## Given the following XML document, write the XSLT style sheets that return the response desired (look at sections):
 
-## Exercise 1:
+### Exercise 1:
 
     <?xml version="1.0" encoding="UTF-8"?>
         Administración de Sistemas Informáticos en Red
         Desarrollo de Aplicaciones Web
         Sistemas Microinformáticos y Redes
 
-## Exercise 2:
+### Exercise 2:
 
     <?xml version="1.0" encoding="UTF-8"?>
     <html>
@@ -16,7 +17,7 @@
         <p>Sistemas Microinformáticos y Redes</p>
     </html>
 
-## Exercise 3:
+### Exercise 3:
 
     <?xml version="1.0" encoding="UTF-8"?>
     <html>
@@ -27,7 +28,7 @@
         </ul>
     </html>
 
-## Exercise 4:
+### Exercise 4:
 
     <?xml version="1.0" encoding="UTF-8"?>
     <html>
