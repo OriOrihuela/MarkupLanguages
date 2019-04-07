@@ -9,7 +9,7 @@
         </dades>
         <email>eduardo.orihuela.4e@gmail.com</email>
         <url href="http//"></url>
-        <relacio></relacio>
+        <relacio treballador="x213 x799 x564"></relacio>
     </persona>
 
     <persona id="x213" contr="true">
@@ -17,6 +17,7 @@
             <nom>Antoni</nom>
             <cognom>March Martí</cognom>
         </dades>
+        <relacio director="x001"/>
     </persona>
 
     <persona id="x799" contr="false" salary="950€">
@@ -25,7 +26,7 @@
             <cognom>Zamora Rodríguez</cognom>
         </dades>
         <email>jzamora@gmail.com</email>
-        <relacio></relacio>
+        <relacio director="x001"/>
     </persona>
 
     <persona id="x564" note="Such a worker person" contr="true" salary="500€">
