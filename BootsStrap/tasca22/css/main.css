@@ -1,0 +1,26 @@
+.jumbotron {
+    background: url("https://mdbootstrap.com/img/Photos/Others/gradient1.jpg");
+    -webkit-background-size: cover;
+}
+
+
+/* ---- Footer ---- */
+#footer {
+    margin-bottom: 0;
+}
+
+/* ---- Social Media ---- */
+#enlaces-redes-sociales {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ---- Contacto ---- */
+#contacto, a {
+    color: black;
+}
+
+/* ---- Sobre mí ---- */
+#sobre-mi, a {
+    color: black;
+}
