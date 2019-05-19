@@ -1,12 +1,29 @@
 .jumbotron {
     background: url("https://mdbootstrap.com/img/Photos/Others/gradient1.jpg");
     -webkit-background-size: cover;
+    background-size: cover;
+}
+/* ---- Header ---- */
+#header {
+    margin-bottom: 0;
+}
+#div-logo {
+    text-align: -webkit-center;
+}
+#logo-header {
+    width: 25%;
 }
 
 
 /* ---- Footer ---- */
 #footer {
     margin-bottom: 0;
+}
+#footer, .row {
+    text-align: center;
+}
+.cajas-footer{
+    margin-top: 5%;
 }
 
 /* ---- Social Media ---- */

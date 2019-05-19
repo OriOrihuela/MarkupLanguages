@@ -1,0 +1,4 @@
+/* ---- Tamaño de las imágenes del carousel ---- */
+#myCarousel, img {
+    width: 100%;
+}
