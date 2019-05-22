@@ -1,4 +1,26 @@
 /* ---- Tamaño de las imágenes del carousel ---- */
-#myCarousel, img {
-    width: 100%;
+#myCarousel,
+img {
+  width: 100%;
+  /*height: 20%;
+  object-fit: cover;    with these properties we can adjust the image's size" */
+}
+
+/* ---- Row del Acordeón ---- */
+#acordianID,
+a:focus,
+a:hover {
+  text-decoration: none;
+}
+#acordianId,
+h3 {
+  font-style: italic;
+}
+#acordianId,
+h5 {
+  font-weight: bold;
+}
+
+#ultimo-texto {
+  margin-bottom: 0;
 }
