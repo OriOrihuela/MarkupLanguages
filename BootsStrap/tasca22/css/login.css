@@ -1,0 +1,36 @@
+/* ---- ROW ---- */
+.row {
+  margin-top: 2%;
+}
+
+/* ---- Image ---- */
+#div-logo {
+  text-align: -webkit-center;
+}
+
+/* ---- Position of the login ---- */
+#col {
+  width: 50%;
+  left: 24%;
+  margin-top: 5%;
+}
+
+/* ---- Inputs ---- */
+input {
+  text-align: -webkit-center;
+}
+
+/* ---- Remember me / Forgot Password? ---- */
+#row-remember-forgot {
+    display: flex;
+}
+.remember-forgot {
+  display: flex;
+  text-align: -webkit-center;
+  margin-top: 0;
+}
+
+/* ---- Social Media buttons ---- */
+.btn-default {
+    margin-bottom: 5%;
+}
