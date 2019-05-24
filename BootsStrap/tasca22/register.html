@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Register</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Normal CSS / Imported -->
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="col">
+            <div id="div-logo">
+                <img src="images/logo.png" class="img-responsive" alt="Logo">
+            </div>
+            <div class="card">
+
+                <h5 class="card-header">
+                    <strong id="strong">Regístrese</strong>
+                </h5>
+
+                <div class="card-body">
+
+                    <form class="md-form" action="inicio.html">
+
+                        <input type="text" id="materialRegisterFormNombre" class="form-control">
+                        <label for="materialRegisterFormNombre">Nombre</label>
+
+                        <input type="email" id="materialRegisterFormApellidos" class="form-control">
+                        <label for="materialRegisterFormApellidos">Apellidos</label>
+
+                        <input type="email" id="materialRegisterFormEmail" class="form-control">
+                        <label for="materialRegisterFormEmail">E-mail</label>
+
+                        <input type="password" id="materialRegisterFormPassword" class="form-control"
+                            aria-describedby="materialRegisterFormPasswordHelpBlock">
+                        <label for="materialRegisterFormPassword">Password</label>
+
+                        <small id="materialRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                            Al menos 8 letras y 1 dígito
+                        </small>
+
+                        <input type="password" id="materialRegisterFormPhone" class="form-control"
+                            aria-describedby="materialRegisterFormPhoneHelpBlock">
+                        <label for="materialRegisterFormPhone">Teléfono</label>
+
+                        <small id="materialRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+                            Opcional - para autenticación doble
+                        </small>
+
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="materialRegisterFormNewsletter">
+                            <label class="form-check-label" for="materialRegisterFormNewsletter">Suscríbase a nuestra
+                                newsletter</label>
+                        </div>
+
+
+                        <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0"
+                            type="submit" id="registrarse">Registrarse</button>
+
+                        <div class="text-center">
+                            <p style="margin-top: 5px;">o regístrese con:</p>
+
+                            <a class="btn btn-default" href="https://www.facebook.com/" role="button"><img
+                                    src="images/facebook.png" alt="image"></a>
+                            <a class="btn btn-default" href="https://www.instagram.com/?hl=es" role="button"><img
+                                    src="images/linkedin.png" alt="image"></a>
+                            <a class="btn btn-default" href="https://es.linkedin.com/" role="button"><img
+                                    src="images/instagram.png" alt="image"></a>
+
+                            <hr>
+
+                            <p>By clicking
+                                <em>Sign up</em> you agree to our
+                                <a href="" target="_blank">terms of service</a> and
+                                <a href="" target="_blank">terms of service</a>. </p>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>
