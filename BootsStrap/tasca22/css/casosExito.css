@@ -24,3 +24,8 @@ h5 {
 #ultimo-texto {
   margin-bottom: 0;
 }
+
+/* ---- Davincia ---- */
+th {
+  text-align: -webkit-center;
+}

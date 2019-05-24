@@ -6,7 +6,8 @@
 
 /* ---- Card-Header ---- */
 #strong {
-  background-color: aquamarine;
+  background-color: #5bc0de;
+  color: white;
   padding: 0.5% 4%;
   border-radius: 20%;
 }
@@ -28,10 +29,6 @@ label {
 small {
     margin-left: 10px;
 }
-#registrarse:hover {
-    background-color: aquamarine;
-    font-weight: bold;
-}
 
 /* ---- Remember me / Forgot Password? ---- */
 #row-remember-forgot {
@@ -43,7 +40,3 @@ small {
   margin-top: 0;
 }
 
-/* ---- Social Media buttons ---- */
-.btn-default {
-  
-}
