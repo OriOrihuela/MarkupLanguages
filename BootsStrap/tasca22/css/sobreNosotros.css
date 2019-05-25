@@ -1,0 +1,11 @@
+/* ---- HEADER NOTICIAS ---- */
+.header {
+  background: #0cebeb;
+  background: -webkit-linear-gradient(to left, #29ffc6, #20e3b2, #0cebeb);
+  background: linear-gradient(to left, #29ffc6, #20e3b2, #0cebeb);
+  margin-top: 5%;
+  left: 25%;
+  border-radius: 30px;
+  padding: 5px;
+  text-align: -webkit-center;
+}
