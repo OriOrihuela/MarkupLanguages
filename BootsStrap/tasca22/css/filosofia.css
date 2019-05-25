@@ -1,0 +1,12 @@
+/* ---- TÍTULO ---- */
+#titulo {
+  background: #0cebeb;
+  background: -webkit-linear-gradient(to left, #29ffc6, #20e3b2, #0cebeb);
+  background: linear-gradient(to left, #29ffc6, #20e3b2, #0cebeb);
+  margin-top: 5%;
+  width: 50%;
+  left: 25%;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  text-align: -webkit-center;
+}
