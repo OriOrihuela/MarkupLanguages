@@ -29,3 +29,9 @@ h5 {
 th {
   text-align: -webkit-center;
 }
+
+/* ---- BBB ---- */
+#ofertas {
+  border-style: groove;
+  padding-bottom: 1%;
+}
