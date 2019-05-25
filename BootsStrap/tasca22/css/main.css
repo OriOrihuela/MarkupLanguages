@@ -24,14 +24,11 @@ body {
 /* ---- Footer ---- */
 #footer {
   margin-bottom: 0;
-  padding-top: 0;
+  padding: 2% 0;
 }
 #footer,
 .row {
   text-align: center;
-}
-.cajas-footer {
-  margin-top: 5%;
 }
 
 /* ---- Social Media ---- */
