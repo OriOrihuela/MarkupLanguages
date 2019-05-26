@@ -26,6 +26,12 @@ h5 {
 }
 
 /* ---- Davincia ---- */
+.table {
+  border-style: double;
+}
+thead {
+  border-style: double;
+}
 th {
   text-align: -webkit-center;
 }
